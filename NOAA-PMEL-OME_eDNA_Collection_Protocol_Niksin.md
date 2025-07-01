@@ -68,12 +68,12 @@ samp_size_unit: mL
 - This section contains protocols that should be known to users of this protocol.
 - Include the link to each protocol.
 - Include the version number and release date (if available).
-- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protocols from manufacturers or other groups.
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
 | NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0  |  |
-|  NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.1 | 2025-05-27   | Internal|
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.1 | 2025-05-27 | Internal|
 
 ### Protocol Revision Record
 
@@ -107,15 +107,15 @@ samp_size_unit: mL
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancilliary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame is often referred to as a "CTD cast". |
+| Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancilliary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame are often referred to as a "CTD cast". |
 | Field blank | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step.  |
-| Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting descrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight triggered release mechanism causing the stoppers to snap shut. This is remotely triggered so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
+| Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting discrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight triggered release mechanism causing the stoppers to snap shut. This is remotely triggered, so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
 
 ## BACKGROUND
 
 ### Summary
 
-Water collection and filtration protocol using sterivex filters to collect envirnomental DNA from marine ecosystems. This collection and filtration protocol is used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
+Water collection and filtration protocol using sterivex filters to collect environmental DNA from marine ecosystems. This collection and filtration protocol is used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
 ### Method Description and Rationale
 
@@ -123,7 +123,7 @@ This protocol describes the collection and filtration of seawater samples throug
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This protocol has been used to filter eDNA from tens of thousands of sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This protocol has been used to filter eDNA from tens of thousands of seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
@@ -131,7 +131,7 @@ One person with pipetting experience. Recommend research vessel experience, but 
 
 ### Safety
 
-This protocol does not involve any hazardous chemicals, although standard precautions including wearing PPE should be taken to avoid skin and eye exposure to bleach and ethanol.
+This protocol does not involve any hazardous chemicals, although standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to bleach and ethanol.
 
 ### Training Requirements
 
@@ -139,7 +139,7 @@ Molecular biology training (including, at a minimum, sterile technique and pipet
 
 ### Time Required to Execute the Procedure
 
-The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, niskin bottles on a CTD rosette and/or ROV are triggered to collect at three depths (e.g., surface, 30m, and 10m off bottom). Then pending the scientific questions and niskin size, a singular sample or triplicate samples are collected from each niskin. The depth of collection and number of samples affects the time required - for instance a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. Collecting samples from the niskins take between 10-30 minutes, depending on access and whether the water is being used for other science.  The filtration and preservation of three singular samples on average takes 45 minutes. If additional replicates are added, you can expect the filtering time to double or triple. Therefore, the total collection time for a singular cast with three niskins triggered and one sample taken from each niskin is 75 minutes (1 hour and 25 minutes) on average. More casts, more samples = more time.
+The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, niskin bottles on a CTD rosette and/or ROV are triggered to collect at three depths (e.g., surface, 30m, and 10m off bottom). Then pending the scientific questions and niskin size, a singular sample or triplicate samples are collected from each niskin. The depth of collection and number of samples affect the time required - for instance, a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. Collecting samples from the niskins take between 10-30 minutes, depending on access and whether the water is being used for other science.  The filtration and preservation of three singular samples on average takes 45 minutes. If additional replicates are added, you can expect the filtering time to double or triple. Therefore, the total collection time for a singular cast with three niskins triggered and one sample taken from each niskin is 75 minutes (1 hour and 25 minutes) on average. More casts, more samples = more time.
 
 ## EQUIPMENT
 
@@ -147,20 +147,20 @@ The time needed varies widely based on the number and type of samples collected.
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
-- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+- Remark: For example, some of the consumables may need to be sterilized, some commercial solutions may need to be diluted or shielded from light during the operating procedure.
 
 For a singular cast with three unique samples taken (one sample per niskin):
 
-| DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
+| DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
 | Pipettor: 100-1000 μL | Pipetman P1000 | Gilson | 1 | Can be substituted with any accurate pipettor. |
-| Peristaltic pump | Alexis peristaltic pump | Proactive Environmental Products | 1 | Can be subsituted with generic, must fit peristaltic tubing with 3/16" inner diameter. |
-| Peristaltic tubing | Nalgene Pharma-Grade Platinum-Cured Silicone Tubing, Size 15 | Thermo Scientific | 3 | Need to be cut in 4-5 ft pieces with razor blade. Can be subsituted with generic silicone peristaltic tubing of the same diameter. |
+| Peristaltic pump | Alexis peristaltic pump | Proactive Environmental Products | 1 | Can be substituted with generic, must fit peristaltic tubing with 3/16" inner diameter. |
+| Peristaltic tubing | Nalgene Pharma-Grade Platinum-Cured Silicone Tubing, Size 15 | Thermo Scientific | 3 | Need to be cut in 4-5 ft pieces with razor blade. Can be substituted with generic silicone peristaltic tubing of the same diameter. |
 | Barbed luer adaptor | Male luer Lock x 1/4" 6.4mm PP Hose Barb Adapter | RSN Lab | 3 | Can be subsituted with generic |
-| Nalgene bottles | 1 L nalgene wide-mouth lab quality amber HDPE bottles | Thermo Scientific | 3 | Can be subsituted with generic - must be opaque, well-sealing and sterilizable. |
+| Nalgene bottles | 1 L Nalgene wide-mouth lab quality amber HDPE bottles | Thermo Scientific | 3 | Can be substituted with generic - must be opaque, well-sealing and sterilizable. |
 | Carboy | 20 L Nalgene rectangular carboy with spigot | Generic | 1 |Number needed will vary based on length of fieldwork and number of samples. Must be sterilized before use. Not required if the ship has sterile RO water available. |
-|Wash bottles|Safety wash bottles 500 mL for EtOH, bleach and RO water|VWR|3|Can be substituted with generic, but recommend purchasing different colored bottles for each reagent. Must be sterilized before use. |
+|Wash bottles|Safety wash bottles 500 mL for EtOH, bleach, and RO water|VWR|3|Can be substituted with generic, but recommend purchasing different colored bottles for each reagent. Must be sterilized before use. |
 | Bucket | 5 gallon bucket | Generic | 2 |  |
 | Bungee cords | Bungee cords | Generic | 10 | Varying sizes recommended  |
 | Tabletop covering | Disposable plastic or paper table covering| Generic | 1 |  |
@@ -168,7 +168,7 @@ For a singular cast with three unique samples taken (one sample per niskin):
 | 50 mL tube | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 1 | Can be substituted with generic. Must be sterile. |
 | Foil | Aluminium Foil | Generic | 1 | |
 | Sterivex | Sterivex-GP pressure filter unit | Millipore Sigma | 3 |Cannot be substituted for this protocol.  |
-| Sterivex/syringe caps | Male/female sterile luer caps | McKesson | 6 | Can be subsituted with generic, must be sterile and individually packaged. |
+| Sterivex/syringe caps | Male/female sterile luer caps | McKesson | 6 | Can be substituted with generic, must be sterile and individually packaged. |
 | Label tape | VWR general-purpose laboratory labeling tape | VWR |1  | Can be substituted with generic. |
 | Whirl-pak | Whirl-pak standard sample bags (4 oz. capacity) | Nasco | 3| Can be substituted with generic, must be sealing and sterile. |
 | Plastic bag | Sealable plastic storage bags gallon/large | Generic | 1 | Can be substituted with generic.|
@@ -182,28 +182,28 @@ For a singular cast with three unique samples taken (one sample per niskin):
 | 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 6000 μL | Can be substituted with generic, must be 200 proof and molecular biology grade |
 | 70% EtOH | Molecular biology grade ethanol | 10 mL |  |
 | 10% bleach | Hypochlorite bleach | Clorox | 400 mL| Remake every ~5 days as bleach decomposes quickly at 10% concentration. The majority is used in bottle/tube sterilization.|
-| RO water | Ultrapure 18 MΩ RO water | generic | 400 mL| Must run through reverse osmosis filter with an irratiated 0.2 micron filter to remove biological contaminants.  |
+| RO water | Ultrapure 18 MΩ RO water | generic | 400 mL| Must run through reverse osmosis filter with an irradiated 0.2 micron filter to remove biological contaminants.  |
 
 ## STANDARD OPERATING PROCEDURE
 
 ### Preparation
 
 **Glove Sterilization:**
-When sterilizing any equipment or filtering, sterile nitrile gloves must be used. Gloves directly from the box are not considered sterile. To sterilize, squirt 10% bleach solution from a squirt bottle onto new pair of gloves and rub hands together, then squirt with EtOH to get rid of bleach residue. Nitrile gloves should be worn at all times during the sterilization, sampling, filtering, preservation and storage steps.
+When sterilizing any equipment or filtering, sterile nitrile gloves must be used. Gloves directly from the box are not considered sterile. To sterilize, squirt 10% bleach solution from a squirt bottle onto new pair of gloves and rub hands together, then squirt with EtOH to get rid of bleach residue. Nitrile gloves should be worn at all times during the sterilization, sampling, filtering, preservation, and storage steps.
 
 **Bucket Sterilization:**
 
-1. Create 10% bleach solution directly in bucket (4-6 L). Seal lid carefully and shake for 2-3 minutes.
+1. Create 10% bleach solution directly in bucket (4-6 L). Seal the lid carefully and shake for 2-3 minutes.
 2. Empty the 10% bleach solution. Fill carboy with 3-4 L of RO water and shake for 1-2 minutes. Repeat this RO wash step two more times (= 3 rinses in total)
 9. Once complete, close the bucket with a lid, label, and close with tape.
 
 **Carboy Sterilization:**
-Recommend completing before embarking onto the vessel, preferably back in the laboratory environment. Similar process can be complete with squirt bottles. **Only required if you are bring carboy of RO into the field.**
+Recommend completing before embarking onto the vessel, preferably back in the laboratory environment. Similar process can be completed with squirt bottles. **Only required if you are bringing a carboy of RO into the field.**
 
-1. Create 10% bleach solution directly in carboy (4-6 L). Close the carboy, make sure the spigot is closed, and shake for 2-3 minutes.
-2. Empty the 10% bleach solution via the spigot into the sink. Allow 50-80% of the bleach solution to leave through the spigot, then dump the rest. You’ll need to loosen the cap a bit, otherwise, an airlock will prevent the flow. 
+1. Create 10% bleach solution directly in a carboy (4-6 L). Close the carboy, make sure the spigot is closed, and shake for 2-3 minutes.
+2. Empty the 10% bleach solution via the spigot into the sink. Allow 50-80% of the bleach solution to leave through the spigot, then dump the rest. You’ll need to loosen the cap a bit; otherwise, an airlock will prevent the flow. 
 5. Fill carboy with 3-4 L of RO water and shake for 1-2 minutes. Repeat this RO wash step two more times (= 3 rinses in total)
-9. Once complete, seal the carboy lid and spigot with parafilm. If using immiedately, fill with RO water. Otherwise, this sealed, sterile carboy can be stored for month+.
+9. Once complete, seal the carboy lid and spigot with parafilm. If using immediately, fill with RO water. Otherwise, this sealed, sterile carboy can be stored for month+.
 
 **Bottle Sterilization:**
 One sterile bottle is required for each sample and each field blank.
@@ -218,8 +218,8 @@ Bottle Sterilization Method (RO Available):
 
 Bottle Sterilization Method with (RO Not Available):
 
-1. Complete Step 1-3 from Bottle Sterilization Method (RO Available)
-2. Close it with the cap then wrap the top with parafilm to maintain sterility. **Shouldn't be done more than 24 hours in advance of sampling**
+1. Complete Steps 1-3 from Bottle Sterilization Method (RO Available)
+2. Close it with the ca,p then wrap the top with parafilm to maintain sterility. **Shouldn't be done more than 24 hours in advance of sampling**
 3. Once the CTD is on deck, take bleached 1 L Nalgene bottles and dispense ~250 ml of sample seawater from the Niskin into the bottle; close the lid and shake vigorously. Dump. This will rid the container of residual bleach. Repeat process 2x (= three rinses in total). Water must come from the same Niskin that will be the source of the actual sample; otherwise, there will be cross-contamination.
 
 **Tubing and Adaptor Sterilization:**
@@ -230,15 +230,15 @@ Barbed Luer Adaptor Sterilization:
 3. Rinse 3x with RO water while shaking if available. If no RO is available, rinse individual adaptors in sample seawater from the niskin 3x immediately before sampling.
 
 Tube Sterilization Method (RO Available):
-1. Prepare a 10% bleach solution in one of the buckets (6-10 L total, depending on needs). Then grab two sterile buckets and fill one with RO water (6-10 L total, depending on needs). Leave the other sterile bucket for peristaltic tubing storage post-sterilization.
-2. Soak the peristaltic tubing in the bucket with bleach for 15 min; make sure the bleach makes it into the inside of the peristaltic tube. Best way to ensure the tube is filled is by rolling up the tube, and then making sure both openings are submerged. Air bubbles should escape as the tube fills.
-5. Before transfering to the RO bucket, make sure to run bleach again through the tubing before transferring to RO.
+1. Prepare a 10% bleach solution in one of the buckets (6-10 L total, depending on needs). Then, grab two sterile buckets and fill one with RO water (6-10 L total, depending on needs). Leave the other sterile bucket for peristaltic tubing storage post-sterilization.
+2. Soak the peristaltic tubing in the bucket with bleach for 15 min; make sure the bleach makes it into the inside of the peristaltic tube. The best way to ensure the tube is filled is by rolling up the tube and then making sure both openings are submerged. Air bubbles should escape as the tube fills.
+5. Before transferring to the RO bucket, make sure to run bleach again through the tubing before transferring to RO.
 6. Soak the peristaltic tubing in the bucket with RO for 15 min; make sure the bleach makes it into the inside of the tube.
-7. Before transfering sterile peristaltic tubing to sterile storage bucket, make sure to run RO water again through the tube.
+7. Before transferring sterile peristaltic tubing to a sterile storage bucket, make sure to run RO water again through the tube.
 
 Tube Sterilization Method (RO Not Available):
-1. Complete Step 1-2 from Tube Sterilization Method (RO Available), minus the bucket filled with RO water.
-2. Soak the peristaltic tubing in the bucket with bleach for 15 min; make sure the bleach makes it into the inside of the tube. Best way to ensure the tube is filled is by rolling up the tube, and then making sure both openings are submerged. Air bubbles should escape as the tube fills.
+1. Complete Steps 1-2 from Tube Sterilization Method (RO Available), minus the bucket filled with RO water.
+2. Soak the peristaltic tubing in the bucket with bleach for 15 min; make sure the bleach makes it into the inside of the tube. The best way to ensure the tube is filled is by rolling up the tube and then making sure both openings are submerged. Air bubbles should escape as the tube fills.
 3. Remove peristaltic tubing from bleach bucket and wipe down ends with kimwipe and 70% EtOH. Place in sterile storage bucket. **Shouldn't be done more than 24 hours in advance of sampling to avoid tube damage due to bleach residue**
 4. Once the CTD is on deck, with a sterilized Nalgene bottle, collect ~250 ml of Niskin sample seawater in addition to the 1 L Nalgene bottle sample. Before filtering through the sterivex, run the 250 ml of sample seawater through the peristaltic tubing to clean off residual bleach. Use tubing immediately.
 
@@ -261,21 +261,21 @@ When eDNA sampling in the field, there should be a corresponding field notebook.
 On smaller cruises where no CTD logs are kept or water is sampled without a CTD, more detail is required in the field note. Record the date, sample #, site name, lat/long, cast #, depth, and any other associated notes (e.g., filtering issues, sampling device, cast deployment time).
 
 ### Sampling
-This protocol is designed for samples collected with a niskin bottle - the samples are expected to be descrete and sealed masses of water that can be transferred to a 1 L Nalgene bottle without contamination (typically from the spout/spigot of the niskin bottle). For our samples, niskin bottles are remotely triggered to close at a specified depth and collected alongside complementary hydrographic data (using a CTD attached to the niskin sampling rosette). 
+This protocol is designed for samples collected with a niskin bottle - the samples are expected to be discrete and sealed masses of water that can be transferred to a 1 L Nalgene bottle without contamination (typically from the spout/spigot of the niskin bottle). For our samples, niskin bottles are remotely triggered to close at a specified depth and collected alongside complementary hydrographic data (using a CTD attached to the niskin sampling rosette). 
 
-Fill 1 L Nalgene bottle with 1 L of seawater. It is important to do this before the sample seawater has sat on the deck in the sun. After collecting, if you don’t have time to filter, label, and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a seawater sample sits in the fridge in the field notebook.
+Fill a 1 L Nalgene bottle with 1 L of seawater. It is important to do this before the sample seawater has sat on the deck in the sun. After collecting, if you don’t have time to filter, label, and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a seawater sample sits in the fridge in the field notebook.
 
 ### Filtration
 
-**Method 1: Sample seawater is drawn through the sterivex via tubing attached to the outlet. The sterivex inlet is submerged in the sample seawater and then pumped through the sterivex so only filtered water enters the tubing. With this method, the same tubing can be used for all samples taken from a single site (i.e. at different depths). Method 1 requires less tubing and reduced overall risk of contamination.**
+**Method 1: Sample seawater is drawn through the sterivex via tubing attached to the outlet. The sterivex inlet is submerged in the sample seawater and then pumped through the sterivex so only filtered water enters the tubing. With this method, the same tubing can be used for all samples taken from a single site (i.e., at different depths). Method 1 requires less tubing and reduced overall risk of contamination.**
 
-1. Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. Place one end in a bucket or sink, and insert a barbed luer adaptor into the other end. During this process, keep the tubing on the adaptor side off the counter to avoid contamination (i.e., use aluminum boat). 
+1. Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. Place one end in a bucket or sink, and insert a barbed luer adaptor into the other end. During this process, keep the tubing on the adaptor side off the counter to avoid contamination (i.e., use an aluminum boat). 
 2. Remove sterivex from packaging - avoid touching inlet or outlet. Attach to sterile peristaltic tubing by screwing the sterivex outlet into the barbed luer adaptor (be careful not to overtighten, the sterivex outlet can break).
 3. Stick the inlet end of the sterivex into the sample seawater in the Nalgene bottle - do not submerge the sterivex entirely. If the junction between the sterivex outlet and tubing is submerged, sample seawater can get sucked into the tubing, bypass the filter, and as a result, contaminate the tubing and reduce the sample seawater volume passed through the sterivex.
 4. Outflow can be directed to the sink or bucket. Start the pump at 35 rpm and adjust upwards accordingly so that the sample seawater takes 7-10 minutes for a sample with low turbidity.
 5. Once all is filtered, continue pumping until all water is removed from the sterivex. Remove the sterivex from the tubing and immediately cap the outlet with a sterivex cap. Capping the outlet prevents EtOH from leaking out in the next step. Place the section of tubing with the barbed luer adaptor your clean aluminum foil boat.
 
-**Method 2: Sample is pushed through the sterivex via tubing attached to the inlet. The end of the tubing is submerged in the sample seawater and sample seawater passes through the tubing before entering the sterivex. With this method, a new sterile piece of peristaltic tubing is required for each sample.**
+**Method 2: Sample is pushed through the sterivex via tubing attached to the inlet. The end of the tubing is submerged in the sample seawater, and sample seawater passes through the tubing before entering the sterivex. With this method, a new sterile piece of peristaltic tubing is required for each sample.**
 
 1. Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. This tube will only be used for a single sample and should be replaced between each filtered seawater sample.
 2. Remove sterivex from packaging - avoid touching inlet or outlet. Attach to peristaltic tubing by pushing the sterivex inlet into the tubing end closest to the sink or bucket.
@@ -286,7 +286,7 @@ Fill 1 L Nalgene bottle with 1 L of seawater. It is important to do this before 
 
 ### Sample Preservation
 
-1. Using a 1000 μL pipettor, gently push the tip into the sterivex inlet to make a seal (important!) and slowly push 1000 μL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 μL.
+1. Using a 1000 μL pipette, gently push the tip into the sterivex inlet to make a seal (important!) and slowly push 1000 μL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 μL.
 2. Cap the sterivex inlet with a sterivex/syringe cap. Once sealed, shake the sterivex to ensure all sides of the filter paper have been saturated with EtOH.
 3. Label outside of sterivex with eDNA sample number.
 4. Put the entire sealed cartridge into a small labeled whirl-pak. Place all sterivex from a single site (replicates or samples taken at different depths in a single niskin rosette/CTD cast) into a single gallon plastic bag. Store in -20˚C freezer.
@@ -299,13 +299,13 @@ Any issues with storage should be noted. Samples **may potentially** remain pres
 
 ### Quality Control
 
-A field blank consisting of sterile RO water in a pre-filled and sealed (prior to fieldwork) 1 L bottle is filtered at the start and end of a cruise using new sterile peristaltic tube and fittings. If more than 50 samples are collected on a cruise, an additional field blank  is filtered every 50 samples. 
+A field blank consisting of sterile RO water in a pre-filled and sealed (prior to fieldwork) 1 L bottle is filtered at the start and end of a cruise using a new sterile peristaltic tube and fittings. If more than 50 samples are collected on a cruise, an additional field blank  is filtered every 50 samples. 
 
 ### Basic Troubleshooting Guide
 
 **Issue 1:** Clogged filter.
 
-Solution : If a sterivex clogs prior to filtering 1 L (water no longer passes through and is ejected out the side of the inlet/adapter fittings), then denote the volume filtered and continue filtering through a new sterivex. Repeat until 1 L is filtered. Mark each additional sterivex, record additional sample names and notes, and denote volumes filtered for each in the field notebook.
+**Solution:** If a sterivex clogs prior to filtering 1 L (water no longer passes through and is ejected out the side of the inlet/adapter fittings), then denote the volume filtered and continue filtering through a new sterivex. Repeat until 1 L is filtered. Mark each additional sterivex, record additional sample names and notes, and denote volumes filtered for each in the field notebook.
 
 **Issue 2:** Broken filter inlet or outlet.
 
