@@ -73,8 +73,8 @@ samp_size_unit: mL
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
 | NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md |2025-10-03  |1.0.0  | Internal |
-| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VaccumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VaccumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VaccumManifold.md | 1.0.0  | 1.0.0  | Internal |
-| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md  | 1.1.1 | 2025-05-27 | Internal|
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.0.0  | 2025-10-03  | Internal |
+| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge.md | 1.1.1 | 2025-05-27 | Internal|
 
 ### Protocol Revision Record
 
