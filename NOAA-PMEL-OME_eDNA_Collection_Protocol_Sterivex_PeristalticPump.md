@@ -28,7 +28,7 @@ env_broad_scale: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209
 env_local_scale: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]
 env_medium: sea water [ENVO:00002149]
 habitat_natural_artificial_0_1: 0
-samp_collect_method: CTD rosette, ROV, hand deploy
+samp_collect_method: CTD niskin rosette, ROV, hand deploy
 samp_collect_device: Niskin bottle
 samp_size: 1000
 samp_size_unit: mL
@@ -72,8 +72,9 @@ samp_size_unit: mL
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0  |  |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.1 | 2025-05-27 | Internal|
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag |2025-10-03  |1.0.0  | Internal |
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VaccumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VaccumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VaccumManifold.md | 1.0.0  | 1.0.0  | Internal |
+| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md  | 1.1.1 | 2025-05-27 | Internal|
 
 ### Protocol Revision Record
 
@@ -84,7 +85,8 @@ samp_size_unit: mL
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-05-30 | Initial release |
-| 1.1.0 | 2025-05-29 | 	Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
+| 1.1.0 | 2025-05-29 | Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
+| 1.1.1 | 2025-10-03 | Minor revisions to include reference to qPCR |
 
 ### Acronyms and Abbreviations
 
@@ -99,6 +101,8 @@ samp_size_unit: mL
 |OME	|Ocean Molecular Ecology|
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE| Personal protective equipment |
+|PVDF|Polyvinylidene Fluoride|
+|qPCR|Quantitative Polymerase Chain Reaction|
 |RO| Reverse Osmosis|
 |ROV| Remotely Operated Vehicle|
 |UW| University of Washington
@@ -107,9 +111,9 @@ samp_size_unit: mL
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
-| Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancilliary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame are often referred to as a "CTD cast". |
-| Field blank | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step.  |
-| Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting discrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight triggered release mechanism causing the stoppers to snap shut. This is remotely triggered, so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
+| Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity, and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancillary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame are often referred to as a "CTD cast". |
+| Field blank | Sampling negative control. Typically, distilled or reverse osmosis wateris  run through a filter like a seawater eDNA sample to control for contamination in the field sampling step.  |
+| Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting discrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight-triggered release mechanism, causing the stoppers to snap shut. This is remotely triggered, so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
 
 ## BACKGROUND
 
@@ -119,11 +123,11 @@ Water collection and filtration protocol using sterivex filters to collect envir
 
 ### Method Description and Rationale
 
-This protocol describes the collection and filtration of seawater samples through a 0.22 µm sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding. The protocol is intended for water collected with a niskin bottle mounted on a ship-deployed CTD rosette sampler.
+This protocol describes the collection and filtration of seawater samples through a 0.22 µm PVDF sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding and qPCR analysis. The protocol is intended for water collected with a niskin bottle mounted on a ship-deployed CTD rosette sampler or ROV, but it can also be employed for samples collected by hand.
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This protocol has been used to filter eDNA from tens of thousands of seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This protocol has been used to filter eDNA from tens of thousands of seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska) as well as from the freshwater Lake Washington. Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
@@ -232,8 +236,8 @@ Barbed Luer Adaptor Sterilization:
 Tube Sterilization Method (RO Available):
 1. Prepare a 10% bleach solution in one of the buckets (6-10 L total, depending on needs). Then, grab two sterile buckets and fill one with RO water (6-10 L total, depending on needs). Leave the other sterile bucket for peristaltic tubing storage post-sterilization.
 2. Soak the peristaltic tubing in the bucket with bleach for 15 min; make sure the bleach makes it into the inside of the peristaltic tube. The best way to ensure the tube is filled is by rolling up the tube and then making sure both openings are submerged. Air bubbles should escape as the tube fills.
-5. Before transferring to the RO bucket, make sure to run bleach again through the tubing before transferring to RO.
-6. Soak the peristaltic tubing in the bucket with RO for 15 min; make sure the bleach makes it into the inside of the tube.
+5. Before transferring to the RO bucket, make sure to run bleach again through the tubing.
+6. Soak the peristaltic tubing in the bucket with RO for 15 min; make sure the RO makes it into the inside of the tube.
 7. Before transferring sterile peristaltic tubing to a sterile storage bucket, make sure to run RO water again through the tube.
 
 Tube Sterilization Method (RO Not Available):
@@ -254,11 +258,11 @@ Tube Sterilization Method (RO Not Available):
 * Pre-label whirl-paks with sample number and pre-label the ziplocks with the cast number, location, date, etc.
 * Make a small boat of folded aluminum foil on which to rest the clean end of your peristaltic tubing (with the barbed luer adaptor) between samples
 
-**Field Notebook:**
+**Field Sampling Records:**
 
-When eDNA sampling in the field, there should be a corresponding field notebook. On larger cruises where CTD logs are kept after each cast, record the sample # in the logs in the corresponding Niskin row. Then, in the field notebook, record the date, sample #, depth, and cast # in the field notebook. Any other associated notes should also be recorded here, such as filtering issues, time before filtering (if longer than ~1 hour), etc. 
+When eDNA sampling in the field, there should be a corresponding record sheet or field notebook. On larger cruises where cruise CTD logs are kept after each cast, record the sample # in the logs in the corresponding niskin row. Record additional information like the date, sample #, sample depth, cast #, filtering issues, etc. in your own records sheet or notebook. 
 
-On smaller cruises where no CTD logs are kept or water is sampled without a CTD, more detail is required in the field note. Record the date, sample #, site name, lat/long, cast #, depth, and any other associated notes (e.g., filtering issues, sampling device, cast deployment time).
+On smaller cruises where no CTD logs are kept or water is sampled without a CTD, more detail is required in the record sheet. Record the date, sample #, site name, lat/long, cast #, depth, and any other associated notes (e.g., filtering issues, sampling device, cast deployment time).
 
 ### Sampling
 This protocol is designed for samples collected with a niskin bottle - the samples are expected to be discrete and sealed masses of water that can be transferred to a 1 L Nalgene bottle without contamination (typically from the spout/spigot of the niskin bottle). For our samples, niskin bottles are remotely triggered to close at a specified depth and collected alongside complementary hydrographic data (using a CTD attached to the niskin sampling rosette). 
@@ -309,7 +313,7 @@ A field blank consisting of sterile RO water in a pre-filled and sealed (prior t
 
 **Issue 2:** Broken filter inlet or outlet.
 
-**Solution:** If broken during filtering, stop filtering, record volume filtered, and denote damage. Next, use parafilm and label tape to seal the broken outlet/inlet of the sterivex. Store in whirlpak. Sample might be salvagable. Remove any peristaltic tubing, bottles, etc. contaminated by sample seawater or sterivex contents from the field of sampling.
+**Solution:** If broken during filtering, stop filtering, record volume filtered, and denote damage. Next, use parafilm and label tape to seal the broken outlet/inlet of the sterivex. Store in whirl-pak. Sample might be salvagable. Remove any peristaltic tubing, bottles, etc. contaminated by sample seawater or sterivex contents from the field of sampling.
 
 ## REFERENCES
 
