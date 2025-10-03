@@ -34,7 +34,7 @@ samp_size: 1000
 samp_size_unit: mL
 ---
 
-# NOAA PMEL OME eDNA Collection Protocol from a Niskin
+# NOAA PMEL OME eDNA Collection Protocol with Sterivex and Peristaltic Pump
 
 ## PROTOCOL INFORMATION
 
