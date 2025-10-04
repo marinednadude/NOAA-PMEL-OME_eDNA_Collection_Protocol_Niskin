@@ -215,7 +215,7 @@ One sterile bottle is required for each sample and each field blank.
 Bottle Sterilization Method (RO Available):
 
 1. Create a 10% bleach solution in one of the buckets (6-10 L total, depending on needs).
-2. Fill 4-6 bottles at a time with 10% bleach solution; fill to the top and seal with a lid. Allow to sit for 15 minutes.
+2. Fill 4-6 bottles at a time with 10% bleach solution; fill to the top and seal with a lid. Allow to sit for 7 minutes, then flip the bottle upside down. Allow to sit for 7 more minutes.
 3. Pour 10% bleach from these bottles into the next set of bottles or reuse bleach for further sterilization needs.
 4. Each bottle needs to be rinsed with  RO three times. Fill each Nalgene bottle with ~200 mL of RO, and then shake for 30-45 seconds (3x total).
 5. Shake out excess RO dumped (doesn’t need to be entirely dry), close it with the cap, and then wrap the top with parafilm to maintain sterility. Always wrap in the direction the cap tightens, so clockwise.
