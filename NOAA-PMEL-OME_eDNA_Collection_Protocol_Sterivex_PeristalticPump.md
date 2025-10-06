@@ -7,7 +7,7 @@ analyses: filtration [OBI:0302885], environmental material collection process [O
 geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323], Lake Washington [GAZ:00008722]
 broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
 local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], freshwater lake biome [ENVO:01000252], estuary [ENVO:00000045]
-environmental_medium: sea water [ENVO:00002149]
+environmental_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
 target: deoxyribonucleic acid (DNA) [NCIT:C449], environmental DNA [NCIT:C169106]
 creator: Shannon Brown, Han Weinrich, Zachary Gold
 materials_required: filtration [OBI:0302885]
