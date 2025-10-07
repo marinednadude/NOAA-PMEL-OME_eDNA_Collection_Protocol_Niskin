@@ -267,7 +267,7 @@ On smaller cruises where no CTD logs are kept or water is sampled without a CTD,
 ### Sampling
 This protocol is designed for samples collected with a Niskin bottle - the samples are expected to be discrete and sealed masses of water that can be transferred to a 1 L Nalgene bottle without contamination (typically from the spout/spigot of the Niskin bottle). For our samples, Niskin bottles are remotely triggered to close at a specified depth and collected alongside complementary hydrographic data (using a CTD attached to the Niskin sampling rosette). 
 
-Fill a 1 L Nalgene bottle with 1 L of sample water (seawater or freshwater, pending sampling locality. It is important to do this before the sample has sat on the deck in the sun. After collecting, if you don’t have time to filter, label, and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a sample sits in the fridge in the field notebook.
+Fill a 1 L Nalgene bottle with 1 L of sample water (seawater or freshwater, pending sampling locality. It is important to do this before the sample has sat on the deck in the sun. After collecting, if you don’t have time to filter, label and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a sample sits in the fridge in the field notebook.
 
 ### Filtration
 
