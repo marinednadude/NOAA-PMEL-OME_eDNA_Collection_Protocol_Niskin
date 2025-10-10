@@ -73,7 +73,8 @@ samp_size_unit: mL
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
 | NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md |2025-10-06  |1.0.0  | Internal |
-| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.0.0  | Pending  | Internal |
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.0.0  | Pending  | Internal |https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump.md|1.0.0| Pending|Intrnal|
+|NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump| 
 | NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge.md | 1.1.1 | 2025-05-27 | Internal|
 
 ### Protocol Revision Record
@@ -320,14 +321,13 @@ A field blank consisting of sterile RO water in a pre-filled and sealed (prior t
 Galaska, M. P., Brown, S. D., & McAllister, S. M. (2023). SPOTLIGHT ON MONITORING BIODIVERSITY IMPACTS OF A CHANGING ARCTIC THROUGH ENVIRONMENTAL DNA. Oceanography (Washington, D.C.), 36(2/3), 109–113.
 
 ## APPENDIX A: DATASHEETS
-[OME_Collection_CTD_ProtocolSheet](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=561598726)
+[OME_Collection_eDNA_ProtocolSheet](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit?usp=sharing&ouid=112961731900530069948&rtpof=true&sd=true)
 
 ## APPENDIX B: VIDEO & IMAGE FILES
-[Protocol Data Sheet](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=1853281061)
 
 [Filtering Video (Youtube): NOAA OME Field eDNA Sample Filtering - Peristaltic Pump + Sterivex](https://www.youtube.com/watch?v=qLiCj3Aeyqk)  
 
 [Filtering Video (Zenodo): NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_FilteringVideo](https://zenodo.org/records/11397400)  
 
-[Sterivex Diagram](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_SterivexDiagram.png)  
+[Sterivex Diagram](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niksin_SterivexDiagram.png)  
 
