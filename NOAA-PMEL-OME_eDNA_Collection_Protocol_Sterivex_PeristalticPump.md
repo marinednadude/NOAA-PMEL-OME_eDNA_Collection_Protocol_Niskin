@@ -100,8 +100,8 @@ samp_size_unit: mL
 |EtOH| Ethanol|
 |NOAA|National Oceanic and Atmospheric Administration
 |OME	|Ocean Molecular Ecology|
-|PMEL	|Pacific Marine Environmental Laboratory|
 |PES|Polyethersulfone|
+|PMEL	|Pacific Marine Environmental Laboratory|
 |PPE| Personal protective equipment |
 |qPCR|Quantitative Polymerase Chain Reaction|
 |RO| Reverse Osmosis|
