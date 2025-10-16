@@ -101,8 +101,8 @@ samp_size_unit: mL
 |NOAA|National Oceanic and Atmospheric Administration
 |OME	|Ocean Molecular Ecology|
 |PMEL	|Pacific Marine Environmental Laboratory|
+|PES|Polyethersulfone|
 |PPE| Personal protective equipment |
-|PVDF|Polyvinylidene Fluoride|
 |qPCR|Quantitative Polymerase Chain Reaction|
 |RO| Reverse Osmosis|
 |ROV| Remotely Operated Vehicle|
@@ -124,7 +124,7 @@ Water collection and filtration protocol using sterivex filters to collect envir
 
 ### Method Description and Rationale
 
-This protocol describes the collection and filtration of seawater or freshwater samples through a 0.22 µm PVDF sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding and qPCR analysis. The protocol is intended for water collected with a Niskin bottle mounted on a ship-deployed CTD rosette sampler or ROV, but it can also be employed for samples collected by hand.
+This protocol describes the collection and filtration of seawater or freshwater samples through a 0.22 µm PES sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding and qPCR analysis. The protocol is intended for water collected with a Niskin bottle mounted on a ship-deployed CTD rosette sampler or ROV, but it can also be employed for samples collected by hand.
 
 ### Spatial Coverage and Environment(s) of Relevance
 
@@ -165,14 +165,14 @@ For a singular cast with three unique samples taken (one sample per Niskin):
 | Barbed luer adaptor | Male luer Lock x 1/4" 6.4mm PP Hose Barb Adapter | RSN Lab | 3 | Can be subsituted with generic |
 | Nalgene bottles | 1 L Nalgene wide-mouth lab quality amber HDPE bottles | Thermo Scientific | 3 | Can be substituted with generic - must be opaque, well-sealing and sterilizable. |
 | Carboy | 20 L Nalgene rectangular carboy with spigot | Generic | 1 |Number needed will vary based on length of fieldwork and number of samples. Must be sterilized before use. Not required if the ship has sterile RO water available. |
-|Wash bottles|Safety wash bottles 500 mL for EtOH, bleach, and RO water|VWR|3|Can be substituted with generic, but recommend purchasing different colored bottles for each reagent. Must be sterilized before use. |
+|Wash bottles|Safety wash bottles, 500 mL, for EtOH, bleach, and RO water|VWR|3|Can be substituted with generic bottles, but we recommend purchasing different-colored bottles for each reagent. Must be sterilized before use. |
 | Bucket | 5 gallon bucket | Generic | 2 |  |
 | Bungee cords | Bungee cords | Generic | 10 | Varying sizes recommended  |
 | Tabletop covering | Disposable plastic or paper table covering| Generic | 1 |  |
 | **Consumable equipment** |
 | 50 mL tube | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 1 | Can be substituted with generic. Must be sterile. |
 | Foil | Aluminium Foil | Generic | 1 | |
-| Sterivex | Sterivex-GP pressure filter unit | Millipore Sigma | 3 |Cannot be substituted for this protocol.  |
+| Sterivex | Sterivex-GP pressure filter unit, PES membrane | Millipore Sigma | 3 |Cannot be substituted for this protocol.  |
 | Sterivex/syringe caps | Male/female sterile luer caps | McKesson | 6 | Can be substituted with generic, must be sterile and individually packaged. |
 | Label tape | VWR general-purpose laboratory labeling tape | VWR |1  | Can be substituted with generic. |
 | Whirl-pak | Whirl-pak standard sample bags (4 oz. capacity) | Nasco | 3| Can be substituted with generic, must be sealed and sterile. |
