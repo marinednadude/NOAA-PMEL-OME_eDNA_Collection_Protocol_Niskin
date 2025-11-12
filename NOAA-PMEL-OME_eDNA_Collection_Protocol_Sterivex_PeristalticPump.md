@@ -26,7 +26,7 @@ maturity level: mature
 samp_category: sample
 env_broad_scale: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
 env_local_scale: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], freshwater lake biome [ENVO:01000252], estuary [ENVO:00000045]
-env_medium: sea water [ENVO:00002149]
+env_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
 habitat_natural_artificial_0_1: 0
 samp_collect_method: CTD Niskin rosette, ROV, hand deploy
 samp_collect_device: Niskin bottle
