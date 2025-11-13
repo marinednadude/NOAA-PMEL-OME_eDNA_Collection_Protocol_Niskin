@@ -15,10 +15,10 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 75
 personnel_required: 1
 language: en
-issued: 2025-10-06
+issued: 2025-11-12
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-hasVersion: 1
+hasVersion: 1.1.1
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -72,9 +72,9 @@ samp_size_unit: mL
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md |1.1.0|2025-11-06  | Internal |
-| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.0.0  | 2025-11-07 | Internal |
-| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge.md | 1.1.4 | 2025-11-06 | Internal|
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md |1.1.0|2025-11-12  | Internal |
+| NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold | https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md | 1.0.0  | 2025-11-12 | Internal |
+| NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge.md | 1.1.4 | 2025-11-12 | Internal|
 
 ### Protocol Revision Record
 
@@ -86,7 +86,7 @@ samp_size_unit: mL
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-05-30 | Initial release |
 | 1.1.0 | 2025-05-29 | Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
-| 1.1.1 | 2025-10-06 | Minor revisions to include reference to qPCR and freshwater sampling |
+| 1.1.1 | 2025-11-12 | Minor revisions to include reference to qPCR and freshwater sampling |
 
 ### Acronyms and Abbreviations
 
