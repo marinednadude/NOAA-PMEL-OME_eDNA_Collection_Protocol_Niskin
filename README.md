@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump_BeBOP
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11398179.svg)](https://doi.org/10.5281/zenodo.11398179)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17655027.svg)](https://doi.org/10.5281/zenodo.17655027)
 
 See [NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump_BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump.md) for detailed protocol.  
 
